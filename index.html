@@ -35,10 +35,75 @@
       </div>
     </div>
   </div>
+  <img id="logoimage" class="ui centered image"
+       src="//cdn.shopify.com/s/files/1/1035/5187/t/5/assets/logo.png?48112882380210683" alt="Island Snow Hawaii"
+       style="border: 0;">
+  <div class="ui centered grid container" id="centermenu">
+    <div class="ui menu borderless" id="hybrid">
+      <div class="ui dropdown item">
+        MEN
+        <i class="dropdown icon"></i>
+        <select>
+          <option>TANK TOPS</option>
+          <option>SHIRTS</option>
+          <option>LONG SLEEVE SHIRTS</option>
+          <option>SWEATSHIRTS</option>
+          <option>BOARDSHORTS</option>
+          <option>HATS</option>
+          <option>STICKERS</option>
+        </select>
+      </div>
+      <div class="ui dropdown item">
+        WOMEN
+        <i class="dropdown icon"></i>
+
+        <select>
+          <option>TANK TOPS</option>
+          <option>SHIRTS</option>
+          <option>LONG SLEEVE SHIRTS</option>
+          <option>SWEATSHIRTS</option>
+          <option>ACCESSORIES</option>
+          <option>BAGS AND WALLETS</option>
+          <option>STICKERS</option>
+        </select>
+      </div>
+      <div class="ui dropdown item">
+        KIDS
+        <i class="dropdown icon"></i>
+
+        <select>
+          <option>SHIRTS</option>
+          <option>ONESIES</option>
+          <option>SWEATSHIRTS</option>
+          <option>ACCESSORIES</option>
+        </select>
+      </div>
+      <div class="ui dropdown item">
+        BRANDS
+        <i class="dropdown icon"></i>
+
+        <select>
+          <option>KICK</option>
+          <option>COFFEE</option>
+          <option>HAWAIIAN</option>
+          <option>MEXICAN</option>
+        </select>
+      </div>
+      <div class="ui dropdown item">
+        SEARCH
+      </div>
+    </div>
+  </div>
 </div>
+<img src="//cdn.shopify.com/s/files/1/1035/5187/t/5/assets/slide1.jpg?48112882380210683" alt="Slide 1 Alt Text" class="ui fluid image">
+
 <script>
   $('.ui.dropdown')
       .dropdown();
+  $('#hybrid select')
+      .dropdown({
+        on: 'hover'
+      });
 </script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 #topmenu {
   background-color: #F5F5F5;
-  -webkit-box-shadow: none;
-   border: 0px;
+  /*-webkit-box-shadow: none;*/
+   /*border: 0px;*/
 }
 
 #leftmenu {
@@ -10,4 +10,18 @@ margin-left: 50px;
 
 #rightmenu {
 margin-right: 50px;
+}
+
+#logoimage {
+  margin-top: 65px;
+}
+
+#centermenu {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.ui.menu {
+  border: 0px;
+  -webkit-box-shadow: none;
 }
