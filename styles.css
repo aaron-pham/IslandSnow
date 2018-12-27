@@ -1,27 +1,27 @@
-#topmenu {
+.ui.borderless.top.menu.fixed {
   background-color: #F5F5F5;
-  /*-webkit-box-shadow: none;*/
-   /*border: 0px;*/
+  -webkit-box-shadow: none;
+   border: 0px;
 }
 
-#leftmenu {
-margin-left: 50px;
-}
-
-#rightmenu {
+.right.menu.top{
 margin-right: 50px;
+}
+
+.left.menu.top {
+  margin-left: 50px;
 }
 
 #logoimage {
   margin-top: 65px;
 }
 
-#centermenu {
+.ui.centered.center.grid.container {
   margin-top: 30px;
   padding-bottom: 20px;
 }
 
-.ui.menu {
+.ui.menu.borderless.middle {
   border: 0px;
   -webkit-box-shadow: none;
 }
